@@ -127,5 +127,67 @@ body {
         justify-content: center;
         align-items: center;
         width: 100%;
-    }
+    /* ===== GLOBAL BODY STYLE ===== */
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+  /* Animated Valentine background */
+  background: linear-gradient(
+    -45deg,
+    #ff5f6d,
+    #ffc371,
+    #ff4b2b,
+    #ff416c
+  );
+  background-size: 400% 400%;
+  animation: gradientBG 8s ease infinite;
+}
+
+/* ===== HEADING ===== */
+h1 {
+  color: white;
+  margin-top: 40px;
+}
+
+/* ===== IMAGE / GIF ===== */
+img {
+  width: 200px;
+  margin: 20px auto;
+  display: block;
+}
+
+/* ===== BUTTONS ===== */
+button {
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button.yes {
+  background-color: #28a745;
+  color: white;
+}
+
+button.no {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* ===== BACKGROUND ANIMATION ===== */
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
