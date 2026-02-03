@@ -135,18 +135,9 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
 
-  /*Baby pink animated background */
-  background: linear-gradient(
-    -45deg,
-    #ffd1dc,
-    #ffc0cb,
-    #ffb6c1,
-    #ffe4ec
-  );
-  background-size: 400% 400%;
-  animation: gradientBG 8s ease infinite;
+  /* Baby pink 🩷 */
+  background-color: #ffb6c1;
 }
-
 /* ===== HEADING ===== */
 h1 {
   color: white;
